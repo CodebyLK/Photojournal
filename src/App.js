@@ -1,5 +1,6 @@
 import React from 'react';
 import BannerImage from './components/BannerImage';
+import AlbumMaker from './components/AlbumMaker';
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <div>
           <h1>Welcome to My Photojournal</h1>
           <h3>Lena Kemp</h3>
+          <AlbumMaker />
         </div>
       </header>
     </div>
